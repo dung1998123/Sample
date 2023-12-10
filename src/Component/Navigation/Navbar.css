@@ -1,0 +1,46 @@
+/* Navbar.css (create a new CSS file or add these styles to your existing CSS file) */
+
+/* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #d9ba91; /* Change the color as needed */
+  }
+  
+  .navbar-toggler {
+    border: none;
+    align-items: center;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #d9ba91; /* Change the color of the toggler icon */
+  }
+  
+  .navbar-nav .nav-item {
+    width: auto;
+    padding: auto;
+    text-align: center;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #d9ba91; /* Change the color of the links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for link color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d9ba91; /* Change the hover color of the links */
+  }
+
+  .navbar-collapse {
+    margin: auto;
+    flex-grow: 0;
+  }
+  

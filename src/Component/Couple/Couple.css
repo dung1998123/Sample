@@ -1,0 +1,31 @@
+/* Couple.css */
+
+.couple {
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .couple img {
+    max-width: 90%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của container */
+    height: auto;
+  }
+
+  couple-left {
+    width: 41%;
+  }
+
+  couple-right {
+    width: 41%;
+  }
+  .couple-center {
+    flex: 0 0 auto;
+    text-align: center; /* Canh giữa nội dung */
+  }
+  
+  .couple-center img {
+    width: 100%; /* Hình ảnh Shape mở rộng 100% theo chiều ngang */
+    height: auto; /* Duy trì tỉ lệ khung hình */
+  }
+  

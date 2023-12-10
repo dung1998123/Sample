@@ -1,0 +1,22 @@
+.dc-header {
+    padding-top: 100px;
+    width:100%;
+    align-items: center;
+}
+  
+.dc-header img {
+    max-width: 100px; /* Adjust image width as needed */
+    align-items: center; /* Center items vertically */
+}
+
+.shape-1 {
+    text-align: right;
+}
+
+.shape-2 {
+    text-align: left;
+}
+
+h2{
+    display: inline-block;
+}

@@ -1,0 +1,52 @@
+.Gallery_content {
+    padding-top: 100px;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin:auto
+}
+
+.gallery {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột */
+  }
+  
+  .image:hover img {
+    transform: scale(1.1); /* Phóng to hình ảnh khi di chuột */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền của overlay */
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Ban đầu ẩn overlay */
+    transition: opacity 0.3s ease; /* Hiệu ứng khi di chuột */
+  }
+  
+  .image:hover .overlay {
+    opacity: 1; /* Hiển thị overlay khi di chuột */
+  }
+  
+  

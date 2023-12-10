@@ -1,0 +1,19 @@
+/* Style the image container and play button */
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  

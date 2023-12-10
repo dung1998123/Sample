@@ -1,0 +1,41 @@
+.swiper-container {
+    width: 100%;
+    height: auto;
+  }
+
+.image-slide-item {
+    width: 90%;
+    height: auto;
+    max-height: 500px;
+    justify-content: center;
+    object-fit: cover;
+}
+
+/* ImageSlider.css */
+
+/* CSS for the swiper-pagination */
+.swiper-pagination {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  top:10%;
+  right: 2%;
+  transform: translateX(-50%);
+}
+
+/* Style for pagination bullets */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #d9ba91; /* Set bullet color */
+  opacity: 0.5; /* Adjust opacity */
+  margin: 0 5px; /* Adjust space between bullets */
+  border-radius: 50%; /* Shape bullets as circles */
+  cursor: pointer;
+  transition: opacity 0.3s ease; /* Add transition effect */
+}
+
+/* Active bullet style */
+.swiper-pagination-bullet-active {
+  opacity: 1; /* Set opacity for the active bullet */
+}

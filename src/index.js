@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Head from './Head';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>
+);
+
+const head = ReactDOM.createRoot(document.getElementById('head'));
+head.render(
+  <React.StrictMode>
+    <Head />
   </React.StrictMode>
 );
 

@@ -48,7 +48,9 @@ class Navbar extends React.Component {
                 <a className="nav-link" href="#gallery">Khoảnh khắc</a>
               </li>
               <li className="nav-item">
-                <img src={Logo} alt="Logo"/>
+                <a href="index.html">
+                  <img href="index.html" src={Logo} alt="Logo"/>
+                </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#accept">Xác nhận</a>

@@ -1,0 +1,7 @@
+.Head {
+    display: block;
+    position: relative;
+    height: 100px;
+    z-index: 2;
+    /* max-height: 500px; */
+}
